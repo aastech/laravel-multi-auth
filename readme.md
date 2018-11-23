@@ -226,4 +226,5 @@ Route::get('/admin/home', function () { // <- with {guard} prefix
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
-[![Beerpay](https://beerpay.io/aastech/multi-auth/badge.svg?style=beer-square)](https://beerpay.io/aastech/multi-auth)  [![Beerpay](https://beerpay.io/aastech/multi-auth/make-wish.svg?style=flat-square)](https://beerpay.io/aastech/multi-auth?focus=wish)
+[![Beerpay](https://beerpay.io/aastech/lara-multi-auth/badge.svg)](https://beerpay.io/aastech/lara-multi-auth)
+[![Beerpay](https://beerpay.io/aastech/lara-multi-auth/badge.svg?style=flat-square)](https://beerpay.io/aastech/lara-multi-auth)
