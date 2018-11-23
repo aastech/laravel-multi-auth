@@ -40,7 +40,7 @@ With one simple command you can setup multi auth for your Laravel project. The p
 ### Step 1: Install Through Composer
 
 ```
-composer require aastech/laravel-multi-auth
+composer require aastech/multi-auth
 ```
 
 ### Step 2: Add the Service Provider (only for laravel lower than 5.5)
