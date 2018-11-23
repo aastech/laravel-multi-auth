@@ -1,0 +1,21 @@
+{
+    "name": "aastech/multi-auth",
+    "description": "Multi Auth for Laravel",
+    "keywords": ["auth", "multi", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AASTECH",
+            "email": "aastech.info@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "aastech/core": "1.0.*"
+    },    
+    "autoload": {
+        "psr-4": {
+            "aastech\\MultiAuth\\": "src/"
+        }
+    }
+}

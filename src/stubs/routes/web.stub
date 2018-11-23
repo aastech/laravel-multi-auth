@@ -1,0 +1,16 @@
+
+Route::group(['prefix' => '{{singularSlug}}'], function () {
+
+Route::get('/', '{{singularClass}}Auth\LoginController@showLoginForm')->name('admin.login');
+  Route::get('/login', '{{singularClass}}Auth\LoginController@showLoginForm')->name('admin.login');
+  Route::post('/login', '{{singularClass}}Auth\LoginController@login')->name('adminlogin');
+  Route::post('/logout', '{{singularClass}}Auth\LoginController@logout')->name('admin.logout');
+
+  Route::get('/register', '{{singularClass}}Auth\RegisterController@showRegistrationForm')->name('admin.register');
+  Route::post('/register', '{{singularClass}}Auth\RegisterController@register');
+
+  Route::post('/password/email', '{{singularClass}}Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.request');
+  Route::post('/password/reset', '{{singularClass}}Auth\ResetPasswordController@reset')->name('password.email');
+  Route::get('/password/reset', '{{singularClass}}Auth\ForgotPasswordController@showLinkRequestForm')->name('password.reset');
+  Route::get('/password/reset/{token}', '{{singularClass}}Auth\ResetPasswordController@showResetForm');
+});
